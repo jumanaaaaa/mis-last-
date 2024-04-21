@@ -1,0 +1,66 @@
+/* Custom CSS styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4682B4; 
+    color: rgb(125, 125, 148); 
+}
+
+/* Navbar styles */
+.navbar {
+    margin-bottom: 20px;
+    background-color: #5c8aa4; 
+    padding: 10px 20px; 
+
+/* Logo styles */
+.navbar-brand img {
+    height: 150px; 
+    width: 200px;
+}
+
+/* Navbar link styles */
+.nav-link {
+    color: rgb(54, 51, 51); 
+    font-size: 16px; 
+    padding: 10px; 
+
+.nav-link:hover {
+    color: #4e4e4c; 
+
+/* Carousel styles */
+.carousel-inner img {
+    height: 400px;
+    object-fit: contain; 
+}
+
+/* Footer styles */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #4682B4; 
+    color: rgb(125, 125, 148); 
+
+/* Product card styles */
+.card {
+    background-color: #8c9dad; 
+    border: 1px solid #dee2e6; 
+
+.card-img-top {
+    height: 200px; 
+    object-fit: contain; 
+}
+
+.card-title {
+    color: #343a40; 
+}
+
+.card-text {
+    color: #495057; 
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    /* Adjust grid layout for smaller screens */
+    .row-cols-md-2, .row-cols-lg-3 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
